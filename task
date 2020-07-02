@@ -1,0 +1,276 @@
+here is my work
+https://travelinyourway.blogspot.com/
+i did this task using blogger
+
+1. I posted content using Labels which are externally added as link for the Pages 
+This is displayed in the form of Menu Bar
+
+2.Added logo along with text - in blogger it will take by default size
+
+3.In the left side, Displayed the login and signup Forms i created this using html code
+<div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+
+
+4. In the Blogs menu displayed list of pictures along with description which will navigate to their respective place.
+here is the code
+
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/the-beautiful-taj-mahal.html" target="_blank">
+      <img alt="Taj Mahal" height="400" src="https://1.bp.blogspot.com/-hIGQ1CDh2CQ/Xvrhnjk8ERI/AAAAAAAABwE/VrkQW7XerCcONBhXtnCKYXeCvuzbbVL1QCK4BGAsYHg/w320-h214/taj.jpg" width="600" />
+    </a>
+    <div class="desc">The Taj Mahal</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/the-pink-city.html" target="_blank">
+      <img alt="Jaipur" height="400" src="https://1.bp.blogspot.com/-pv14sAamOCs/XvrjmS-DQSI/AAAAAAAABwc/PuDOMgYDnZwlc-vOQLRWffRp0XgezJToACK4BGAsYHg/s320/jaipur.jpg" width="600" />
+    </a>
+    <div class="desc">Jaipur</div>
+  </div>
+
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/vijayawada-sri-kanaka-durga-temple.html" target="_blank">
+      <img alt="sri" height="400" src="https://1.bp.blogspot.com/-NFT2g-1eYD8/Xvrkxf_O0kI/AAAAAAAABxE/OUbFkqJbS1swH83nzkEmNZueQdmk5yNiwCK4BGAsYHg/s320/kdt.jpg" width="600" />
+    </a>
+    <div class="desc">Sri Kanaka Durga Temple</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/golconda-fort.html" target="_blank">
+      <img alt="Fort" height="400" src="https://1.bp.blogspot.com/-jCYjjXTJSd8/XvrmC8qkNsI/AAAAAAAABxw/bGKPVtDI6a0cE0m07Y1pbw8llpqTYFGFwCK4BGAsYHg/s320/charminar.jpg" width="600" />
+    </a>
+    <div class="desc">Golconda Fort</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/pretty-little-hill-station-munnar.html" target="_blank">
+      <img alt="Munnar" height="400" src="https://1.bp.blogspot.com/-SP8qzU6uLHs/XvtATsthdtI/AAAAAAAABys/JcZqi279oUMMsrLD0It80CEDa-JE78VRACK4BGAsYHg/s320/munnar.jpg" width="600" />
+    </a>
+    <div class="desc">Munnar</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/the-skiing-destination-of-india-auli.html" target="_blank">
+      <img alt="Auli" height="400" src="https://1.bp.blogspot.com/-Ppl0ykhpicY/XvtBNGrZ6wI/AAAAAAAABzk/hAs39SyxkSk207mIMAPq2JD9ih07hYjpgCK4BGAsYHg/s320/AULI.jpg" width="600" />
+    </a>
+    <div class="desc">Auli</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/goa-beaches-sunsets-and-crazy-nights.html" target="_blank">
+      <img alt="Goa" height="400" src="https://1.bp.blogspot.com/-RVQ5cu63t-E/XvtBNV6vzzI/AAAAAAAABzo/WXILnCP3GqIwN2XJW3Dsnpw_ZgZ5CcmIACK4BGAsYHg/s320/GOA.jpg" width="600" />
+    </a>
+    <div class="desc">Goa</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/mussoorie-queen-of-hill-stations.html" target="_blank">
+      <img alt="Mussoorie" height="400" src="https://1.bp.blogspot.com/-stxNOmjZwyk/XvtBNsbu-bI/AAAAAAAABzs/Ojc-E6SKPdgq2gbPC4mHDcV0ZueluAE8ACK4BGAsYHg/s320/MUSSOORIE.jpg" width="600" />
+    </a>
+    <div class="desc">Mussoorie</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/the-spiritual-capital-of-india-varnasi.html" target="_blank">
+      <img alt="Varanasi" height="400" src="https://1.bp.blogspot.com/-YP6UO6hmO0E/XvtBN-fsNWI/AAAAAAAABzw/Gep6FwAMY58yEspy5GOEISJxOWEDhP1yQCK4BGAsYHg/s320/VARANASI.jpg" width="600" />
+    </a>
+    <div class="desc">Varanasi</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/06/queen-of-nilgiris-ooty.html" target="_blank">
+      <img alt="ooty" height="400" src="https://1.bp.blogspot.com/-WlsaykUC8io/XvtAT84GqMI/AAAAAAAABy8/Bntfn7pcwZYYn-DX7TukFpzwRu6_vy3KACK4BGAsYHg/s320/ooty.jpg" width="600" />
+    </a>
+    <div class="desc">Ooty</div>
+  </div>
+</div>
+  
+  <div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/07/gateway-of-india-mumbai.html" target="_blank">
+      <img alt="gwi" height="400" src="https://1.bp.blogspot.com/-r-myQTCidzA/XvywPwwVCjI/AAAAAAAAB10/-tZuGNAy6p86vn1e8yuHuWfLYCqJGAfcwCK4BGAsYHg/s320/fort.jpg" width="600" />
+    </a>
+    <div class="desc">Gateway Of India</div>
+  </div>
+</div>
+  
+  
+ <div class="responsive">
+  <div class="gallery">
+    <a href="https://travelinyourway.blogspot.com/2020/07/heaven-on-earth-srinagar.html" target="_blank">
+      <img alt="srinagar" height="400" src="https://1.bp.blogspot.com/-k2bX12qYyQs/Xvyu9ydjmtI/AAAAAAAAB1c/ainoi8KxJg47hhmIuZQBFFCw0wO1mkNoQCK4BGAsYHg/s320/SRINAGAR.jpg" width="600" />
+    </a>
+    <div class="desc">Srinagar</div>
+  </div>
+</div>
+
+
+
+
+
+<div class="clearfix"></div>
+
+<div style="padding: 6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div> --&gt;
+
+</body>
+</html>
+
+5. for contact form i used widget provided by blogger.
+6. In the Image Gallery, Displayed list of images along with stories.
+7. In the Video Gallery, Displayed videos of those places.
+
+
